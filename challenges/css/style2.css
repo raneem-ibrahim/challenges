@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+.container{
+    background-color: aliceblue;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    padding: 200px;
+    color: white;
+   
+}
+.container .item1{
+    padding:50px ;
+    /* padding-top:100px ; */
+    background-color:hsl(31, 77%, 52%);
+    width: 200px;
+}
+.container .item2{
+    padding: 50px;
+    /* padding-top:100px ; */
+    background-color:hsl(184, 100%, 22%);
+    width: 200px;
+}
+.container .item3{
+    padding: 50px;
+    /* padding-top:100px ; */
+    background-color:hsl(179, 100%, 13%);
+    width: 200px;
+}
+.container .item3 button{
+    color: hsl(179, 100%, 13%);
+}
+.container .item1 button{
+    color:hsl(31, 77%, 52%);
+}
+.container .item2 button{
+    color: hsl(179, 100%, 13%);
+}
+.container button{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+}
