@@ -1,0 +1,334 @@
+ /* .container{
+    background-color: blanchedalmond;
+    height: 700px;
+
+}
+.container div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+   animation-name: square;
+    animation-duration: 5s;
+    border-radius: 30px;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function:linear;
+    animation-fill-mode:both;
+    animation
+    
+    
+}
+@keyframes square{
+   0%{
+    translate:0 0;
+    background-color: blueviolet;
+   
+   }
+   25%{
+    translate: 0 500px;
+    background-color: chartreuse;
+    
+   }
+   50%{
+    translate: 400px 500px;
+    background-color: blue;
+    
+   }
+   75%{
+    translate: 400px 0;
+    background-color: darkorange;
+    
+   }
+   100%{
+    translate: 0 0;
+    background-color: black;
+    
+   }
+
+}
+
+  .container div:hover{
+  animation-play-state: paused;
+  cursor:pointer;
+}  
+
+button{
+    width: 200px;
+    padding: 10px 20px;
+    transition: transform 4s;
+}
+
+button:hover{
+    animation-play-state: paused;
+    transform: scale(2);
+} */
+/* .................task1........... */
+.main{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition-property: background;
+    transition-duration: 4s;
+}
+     .main:hover{
+       background-color: blue;
+     }
+
+   
+    /* width: 200px;
+    height: 200px;
+    animation-name: square;
+     animation-duration: 4s; 
+    animation-delay: 4s;
+}
+@keyframes square{
+         from{
+            background-color: red;
+         }
+         to{
+            background-color: blue;
+         }
+} */
+
+/* ...............task2............... */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: 100px;
+}
+.one{
+    width: 80px;
+    height: 80px;
+    padding: 50px;
+    background-color: rgb(209, 205, 205);
+   
+    
+}
+.one div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 198, 47);
+    color: aliceblue;
+    text-align: center;
+    transform: rotate(60deg);
+    
+
+}
+.tow{
+    width: 80px;
+    height: 80px;
+    padding: 50px;
+    background-color: rgb(209, 205, 205);
+   
+}
+.tow div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 198, 47);
+    color: aliceblue;
+    transform: rotate(-60deg);
+}
+/* ..........................task3.................. */
+.task3{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+   animation-name: square;
+   animation-duration: 4s;
+}
+@keyframes square{
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+/* ..................task4........... */
+.task4 div{
+    padding-left: 50px;
+    padding-top:50px ;
+    animation-name: imag;
+   animation-duration: 3s;
+
+}
+@keyframes imag{
+    from{
+        translate: 50px  50px;
+    }
+    to{
+        translate: 500px  50px ;
+    }
+}
+/* ...................task5................ */
+.task5{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px;
+    margin: 50px;
+
+}
+.task5 .item1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    opacity: 0.25 ;
+}
+.task5 .item2{
+    grid-row: 1/2;
+    grid-column: 1/2;
+   transform: rotate(-20deg);
+}
+/* ...................task6.......... */
+.task6{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px;
+    margin: 50px;
+
+}
+.task6 .item1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    opacity: 0.25 ;
+}
+.task6 .item2{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    transform-origin: right bottom;
+   transform: rotate(15deg);
+}
+/* ............................task7.............. */
+.task7{
+    background-color: rgb(77, 77, 243);
+    color: aliceblue;
+}
+.task7:hover{
+    transition: scale(4);
+}
+/* .......................task8.............. */
+.task8{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: ssquare;
+    animation-duration: 4s;
+
+
+}
+@keyframes ssquare{
+    0%{
+     translate:0 0;
+     background-color: rgb(255, 6, 6);
+     transform: rotate(100deg);
+    }
+    25%{
+     translate: 200 0;
+     background-color: rgb(255, 242, 0);
+     
+    }
+    50%{
+     translate: 200px 200px;
+     background-color: blue;
+    
+    }
+    75%{
+     translate: 0px 200px;
+     background-color: rgb(1, 145, 23);
+    
+    }
+    100%{
+     translate: 0 0;
+     background-color: rgb(255, 8, 8);
+    }
+}
+/* .............................task10.................... */
+.container10{
+    margin: 300px;
+}
+.task10{
+    border: solid 4px black;
+    width: 100px;
+    height: 40px;
+}
+.container10 .task10 .item1{
+    width: 100px;
+    height: 40px;
+    animation-name:energy ;
+    background-color:aliceblue;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in;
+
+}
+ .item{
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    left: 108px;
+    top:-34px ;
+}
+ @keyframes energy{
+    0%{
+        width:0;
+        background-color: red;
+    }
+    50%{
+       
+        background-color: yellow;
+    }
+    100%{
+        
+        background-color: rgb(116, 192, 2);
+    }
+
+} 
+/* .............................task9........... */
+.task9{
+    background-color: rgb(206, 205, 205);
+    width:800px;
+    height: 800px;
+    padding: 50px;
+}
+.task9 .item1{
+    background-color: aliceblue;
+    width: 400px;
+    height: 600px;
+}
+.task9 .item1:hover{
+transform: scale(2)
+
+}
+.task9 .item1 h1{
+    text-align: center;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    color: rgb(66, 66, 66);
+}
+.task9 .item1 p{
+    color: rgb(158, 155, 155);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.task9 .item1 .p1{
+    background-color: rgb(58, 194, 248);
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    padding-top:8px ;
+    padding-bottom: 8px;
+    color: black;
+    font-size: 50px;
+}
+.task9 .item1 .p1:hover{
+    transition: background-color 4s blue;
+
+}
